@@ -1,3 +1,8 @@
+ <?php
+/*require_once "uq/auth.php";
+auth_require();*/
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,15 +10,12 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
-	
 
 
     <title>eMos Gaming Studios</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <!-- Custom fonts for this template -->
@@ -61,76 +63,13 @@
         </div>
     </nav>
 
-    <header class="masthead text-center text-white d-flex parallax">		
-        <div class="container my-auto">
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <br>
-                    <h2 class="text-white">
-                        <strong class="strokeme">eMos Presents</strong>
-                    </h2>
-                    <br><br><br><br>
-					<br><br><br><br>
-
-                </div>
-            </div>
-        </div>
-    </header>
-	
-	<div class="strokeme1" id="services">
-	<br><br>
-	<h1> SpaceCrawl</h1>
-	From the outset of the project, the team worked with the purpose of developing an interesting, 
-	enjoyable gaming experience for casual and experienced gamer’s alike.
-	<br>
-	The eMOS Project is a desktop space-themed 2.5D top-down role playing game, in which players can battle enemies, level up and conquer galaxies. 
-	The game will draw from familiar mechanics found in similar ‘dungeon crawler’ style RPGs - incorporating turn-based combat, collectable armour and weapons, and an XP-based level up system.
-	<br><br><br>
-	</div>
-	
-	<div class="masthead text-center text-white d-flex parallax1">
-	   <div class="container my-auto">
-        <div class="row">
-        </div>
-      </div>
-	</div>
-	
-	
-    <section class="strokeme1" id="services">
+    <section class="bg-secondary" id="services">
         <div class="container">
             <div class="row">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/coFEKC80iYk" allowfullscreen></iframe>
-                </div>
+                <?php include "adminTable.php" ?>
             </div>
         </div>
     </section>
-	
-	<div class="masthead text-center text-white d-flex parallax2">
-	   <div class="container my-auto">
-        <div class="row">
-        </div>
-      </div>
-	</div>
-	
-	
-	<div class="strokeme1" id="services">
-	<br><br>
-	<h1> SpaceCrawl</h1>
-	From the outset of the project, the team worked with the purpose of developing an interesting, 
-	enjoyable gaming experience for casual and experienced gamer’s alike.
-	<br>
-	The eMOS Project is a desktop space-themed 2.5D top-down role playing game, in which players can battle enemies, level up and conquer galaxies. 
-	The game will draw from familiar mechanics found in similar ‘dungeon crawler’ style RPGs - incorporating turn-based combat, collectable armour and weapons, and an XP-based level up system.
-	<br><br><br>
-	</div>
-	
-	<div class="masthead text-center text-white d-flex parallax3">
-	   <div class="container my-auto">
-        <div class="row">
-        </div>
-      </div>
-	</div>
 
 
 
@@ -150,43 +89,43 @@
     <script src="js/creative.min.js"></script>
 
 
-    <section class="bg-primary" id="about">
+<section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h1 class="section-heading text-white">The Team</h2>
+                    <h1 class="section-heading text-white">Contact the Team</h2>
                         <p></p><br>
 
 							<img src="img/face1.jpg" />  
-                            <p class="text-white mb-4">Daniel Abad - ComputerScience - s4368205</p>
+                            <p class="text-white mb-4">Daniel Abad - daniel@bluechipelectrical.com.au</p>
 							<p>
 							<img src="img/face2.png" />  
 							</p>
-                            <p class="text-white mb-4">Loughlin Fox - Software Engineering - s</p>
+                            <p class="text-white mb-4">Loughlin Fox -  loughlin.fox@uqconnect.edu.au</p>
 							<p>
 							<img src="img/face3.png" />  
 							</p>
-                            <p class="text-white mb-4">Arda Akgur  - (degree) - s</p>	
+                            <p class="text-white mb-4">Arda Akgur  - a.akgur@uqconnect.edu.au</p>	
 							<p>
 							<img src="img/face4.png" />  
 							</p>
-                            <p class="text-white mb-4">Yuqian Ni (Ino) - (degree) - s</p>	
+                            <p class="text-white mb-4">Yuqian Ni (Ino) - yuqian.ni@uqconnect.edu.au</p>	
 							<p>
 							<img src="img/face5.jpg" />  
 							</p>
-                            <p class="text-white mb-4">Vivian Sek - (degree) - s</p>	
+                            <p class="text-white mb-4">Vivian Sek - w.sek@uq.net.au</p>	
 							<p>
 							<img src="img/face6.jpg" />  
 							</p>
-                            <p class="text-white mb-4">Jacob Jie Dong - (degree) - s</p>	
+                            <p class="text-white mb-4">Jacob Jie Dong -  j.dong@uq.net.au</p>	
 							<p>
 							<img src="img/face7.jpg" />  
 							</p>
-                            <p class="text-white mb-4">Jason Hulick - (degree) - s</p>	
+                            <p class="text-white mb-4">Jason Hulick - jasonhullick@gmail.com</p>	
 							<p>
 							<img src="img/face8.jpg" />  
 							</p>
-                            <p class="text-white mb-4">Jacob Clements - (degree) - s</p>
+                            <p class="text-white mb-4">Jacob Clements - jacob.clements@uqconnect.edu.au</p>
 					
                 </div>
             </div>

@@ -8,6 +8,45 @@ body {
   font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 50px;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+
+}
+img {
+    width: 100%;
+	float:left;
+	width:42px;
+	height:42px;
+
+}
+
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -48,13 +87,75 @@ h6 {
 
 .strokeme
 {
-    color: #1BFCFC;
+    color: white;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000;
-    font-family: VCR OSD MONO;  
+    1px 1px 0 #000;  
+}
+
+.strokeme1
+{
+    color: white;
+	background-color: #0b0c10;
+	text-align: center;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/dark-background-compressed.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../img/back1.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    /* The image used */
+    background-image: url("../img/back2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+    /* The image used */
+    background-image: url("../img/back3.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .strokemylink
@@ -67,8 +168,10 @@ h6 {
     0.5px 0.5px 0 #000a44;  
 }
 
+
+
 .bg-dark {
-  background-color: #0A2463 !important;
+  background-color: #212529 !important;
 }
 
 .text-faded {
@@ -107,7 +210,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid #000;
-  background-color: #001242;
+  background-color: #212529;
   font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -117,7 +220,7 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #1BFCFC;
+  color: #bcbdc1;
   font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -130,17 +233,17 @@ img::-moz-selection {
   font-size: .8rem;
   font-weight: 500;
   text-transform: uppercase;
-  color: #1BFCFC;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #1BFCFC;
+  color: #bcbdc1;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #1BFCFC !important;
+  color: #bcbdc1 !important;
   background-color: transparent;
 }
 
@@ -152,49 +255,49 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: #001242;
+    background-color: #212529;
   }
   #mainNav .navbar-brand {
-    color: #1BFCFC;
+    color: #bcbdc1;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #1BFCFC;
+    color: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #1BFCFC;
+    color: #fff;;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #30bfb4;
+    color: #bcbdc1;;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid #000;
-    background-color: #0A2463;
+    background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #1BFCFC;
+    color: #bcbdc1;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #1BFCFC;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #1BFCFC;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #30bfb4;
+    color: #bcbdc1;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/background.png");
+  background-image: url("../img/dark-background-compressed.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
